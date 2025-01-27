@@ -6,7 +6,7 @@ Paper can be found [here]need to provide link when available.
 Authors: Alasdair D. Keith, Meredith M. Keen, Filipp Frank and Eric A. Ortlund
 
 ## Raw Rosetta Data
-Click [here].
+Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Rosetta%20Data).
 
 ## Raw ProteinMPNN Data
 Click [here].
