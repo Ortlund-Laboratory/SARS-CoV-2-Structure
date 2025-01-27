@@ -1,0 +1,32 @@
+rosetta_ddg_run -p stripped_6wzo_renum_0117.pdb -cr flexddg_ref2015 -cs nompi -r /programs/x86_64-linux/rosetta/3.13 -l mut_list_file & 
+
+cd flexddg
+rosetta_ddg_check_run -cr flexddg_ref2015 -mf mutinfo.txt
+command not found error, so:
+/home/adkeith@Eu.Emory.Edu/Rosetta/cartddg/RosettaDDGPrediction-master/cartddg/bin/rosetta_ddg_check_run -cr flexddg_ref2015 -mf mutinfo.txt
+
+INFO:root:Now checking the configuration file /home/adkeith@Eu.Emory.Edu/.cache/Python-Eggs/RosettaDDGPrediction-0.0.1-py3.9.egg-tmp/RosettaDDGPrediction/config_run/flexddg_ref2015.yaml.
+INFO:root:No crashed run has been found.
+No crashed run has been found.
+
+cd ..
+/home/adkeith@Eu.Emory.Edu/Rosetta/cartddg/RosettaDDGPrediction-master/cartddg/bin/rosetta_ddg_aggregate -cr flexddg_ref2015 -ca aggregate -cs nompi -od aggregation_output -mf ./flexddg/mutinfo.txt --mutatex-convert --mutatex-reslistfile res_list_file --mutatex-dir mutatex_aggregation_output
+
+2024-05-13 10:50:59,618 - distributed.worker - WARNING - Compute Failed
+Key:       generate_output_dataframes-e9f43a01ab8f028a0de27cc3c9974b8f
+Function:  generate_output_dataframes
+args:      ()
+kwargs:    {'dg_wt':         fa_atr     fa_rep      fa_sol  fa_intra_rep  fa_intra_sol_xover4  lk_ball_wtd    fa_elec   hbond_sr_bb  hbond_lr_bb  hbond_bb_sc  hbond_sc  omega  fa_dun  p_aa_pp  yhh_planarity  ref  rama_prepro  total_score state score_function_name struct_num
+0  -235.850124  25.654738   86.671796  8.881784e-15        -5.684342e-14     1.006465 -71.989137 -1.810463e-11   -11.768688   -22.643869 -3.389209    0.0     0.0      0.0            0.0  0.0          0.0  -232.308027    wt             ref2015          1
+1  -231.912989  27.604858   84.393691 -1.065814e-14        -1.136868e-13     2.642938 -71.435450 -1.527667e-11   -11.426324   -19.042868 -2.918150    0.0     0.0      0.0            0.0  0.0          0.0  -222.094296    wt             ref2015          2
+2  -239.867115  25.714572   93.968303 -4.440892e-15        -7.815970e-14     2.409305 -79.522803 -1.735714e-10   -11.666648   -23.847377 -3.373649    0.0     0.0      0.0            0.0  0.0          0.0  -236.185411    wt      
+Exception: "TypeError('agg function failed [how->mean,dtype->object]')"
+
+ERROR:root:Could not generate output dataframes: agg function failed [how->mean,dtype->object]
+Could not generate output dataframes: agg function failed [how->mean,dtype->object]
+2024-05-13 10:50:59,635 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:35031' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {'get_res_list-94871d37491262ade1645074c0c3a9d3', 'parse_output_flexddg-81369e630c2ce50e56e1defbfd082df8'} (stimulus_id='handle-worker-cleanup-1715611859.6350155')
+
+
+Downgrade pandas?
+pip install pandas==1.5.3
+uninstalled 2.2.2, gave me 1.5.3
