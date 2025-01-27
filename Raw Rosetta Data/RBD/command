@@ -1,0 +1,22 @@
+rosetta_ddg_run -p stripped_7vnu_renum.pdb -cr cartddg2020_ref2015 -cs nompi -r /programs/x86_64-linux/rosetta/3.13 -l mut_list_file -n 20 --saturation --reslistfile res_list_file &
+
+cd cartesian
+rosetta_ddg_check_run -cr cartddg2020_ref2015 -mf mutinfo.txt  
+command not found error, so:
+/home/adkeith@Eu.Emory.Edu/Rosetta/cartddg/RosettaDDGPrediction-master/cartddg/bin/rosetta_ddg_check_run -cr cartddg2020_ref2015 -mf mutinfo.txt
+
+Output:
+INFO:root:Now checking the configuration file /home/adkeith@Eu.Emory.Edu/.cache/Python-Eggs/RosettaDDGPrediction-0.0.1-py3.9.egg-tmp/RosettaDDGPrediction/config_run/cartddg2020_ref2015.yaml.
+INFO:root:No crashed run has been found.
+No c
+crashed run has been found.
+
+cd ..
+/home/adkeith@Eu.Emory.Edu/Rosetta/cartddg/RosettaDDGPrediction-master/cartddg/bin/rosetta_ddg_aggregate -cr cartddg2020_ref2015 -ca aggregate -cs nompi -od aggregation_output -mf ./cartesian/mutinfo.txt --mutatex-convert --mutatex-reslistfile res_list_file --mutatex-dir mutatex_aggregation_output 
+
+/home/adkeith@Eu.Emory.Edu/Rosetta/cartddg/RosettaDDGPrediction-master/cartddg/bin/rosetta_ddg_plot -i ./aggregation_output/ddg_mutations_aggregate.csv -o test.pdf -ca aggregate -cp total_heatmap
+
+
+
+### On local workstation ###
+/home/adkeith@Eu.Emory.Edu/miniconda3/envs/cartddg/bin/rosetta_ddg_plot -i ./aggregation_output/ddg_mutations_aggregate.csv -o test.pdf -ca aggregate -cp total_heatmap
