@@ -9,7 +9,7 @@ Authors: Alasdair D. Keith, Meredith M. Keen, Filipp Frank and Eric A. Ortlund
 Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Rosetta%20Data).
 
 ## Raw ProteinMPNN Data
-Click [here].
+Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20ProteinMPNN%20Data).
 
 ## Raw Deep Mutational Scanning (DMS) Data
 Click [here].
