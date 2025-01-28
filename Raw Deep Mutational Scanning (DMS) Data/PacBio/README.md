@@ -19,7 +19,7 @@ GeneBank data file describing sequence features.<br>
 List of sequence (fastq) files to be analyzed.<br>
 **results/ccs/XXX.fastq**<br>
 Input circular consensus sequences (CCSs) data file.<br>
-[process_ccs.ipynb]XXX<br>
+[process_ccs.ipynb](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio/process_ccs.ipynb)<br>
 Jupyter notebook for extracting barcodes from CCSs and matching to variants.<br>
 
 ## Setup
