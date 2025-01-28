@@ -13,7 +13,7 @@ Change line above!!! At the moment, it points to wrong SRA.
 Configuration script controlling variables used by Jupyter notebook.<br>
 [data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
-[data/PacBio_amplicons.gb]XXX<br>
+[data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
 [data/PacBio_runs.csv]XXX<br>
 List of sequence (fastq) files to be analyzed.<br>
