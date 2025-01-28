@@ -1,0 +1,81 @@
+# config for analysis
+
+# most CPUs to ever use at once
+max_cpus: 16
+
+# amplicons sequenced by PacBio
+amplicons: data/PacBio_amplicons.gb
+
+# the primary target for which we are calling mutations
+primary_target: nucleocapsid
+
+# how to parse the amplicon
+feature_parse_specs: data/feature_parse_specs.yaml
+
+# do we get the sequencing data from the 'HutchServer' or 'SRA'?
+seqdata_source: HutchServer
+
+# list of PacBio sequencing runs linking barcodes to variants
+pacbio_runs: data/PacBio_runs.csv
+
+# list of Illumina sequencing runs of barcodes
+barcode_runs: data/barcode_runs.csv
+
+# output directories / files
+summary_dir: results/summary
+ccs_dir: results/ccs
+process_ccs_dir: results/process_ccs
+processed_ccs_file: results/process_ccs/processed_ccs.csv
+variants_dir: results/variants
+nt_variant_table_file: results/variants/nucleotide_variant_table.csv
+codon_variant_table_file: results/variants/codon_variant_table.csv
+counts_dir: results/counts
+variant_counts_file: results/counts/variant_counts.csv
+func_scores_dir: results/func_scores
+func_scores_by_barcode_file: results/func_scores/func_scores_by_barcode.csv
+func_scores_by_codon_substitutions_file: results/func_scores/func_scores_by_codon_substitutions.csv
+func_scores_by_aa_substitutions_file: results/func_scores/func_scores_by_aa_substitutions.csv
+figs_dir: results/figures
+Titeseq_Kds_dir: results/binding_Kds
+Titeseq_Kds_file: results/binding_Kds/binding_Kds.csv
+Titeseq_Kds_homologs_file: results/binding_Kds/binding_Kds_homologs.csv
+expression_sortseq_dir: results/expression_meanFs
+expression_sortseq_file: results/expression_meanFs/expression_meanFs.csv
+expression_sortseq_homologs_file: results/expression_meanFs/expression_meanFs_homologs.csv
+global_epistasis_binding_dir: results/global_epistasis_binding
+global_epistasis_binding_file: results/global_epistasis_binding/global_epistasis_binding_predictions.csv
+global_epistasis_expr_dir: results/global_epistasis_expression
+global_epistasis_expr_file: results/global_epistasis_expression/global_epistasis_expression_predictions.csv
+single_mut_effects_dir: results/single_mut_effects
+single_mut_effects_file: results/single_mut_effects/single_mut_effects.csv
+homolog_effects_file: results/single_mut_effects/homolog_effects.csv
+structure_function_dir: results/structure_function
+dms_view_dir: results/dms_view
+dms_view_file_RBD: results/dms_view/dms-view_table_RBD.csv
+dms_view_file_spike: results/dms_view/dms-view_table_spike.csv
+circulating_variants_dir: results/circulating_variants
+antibody_epitopes_dir: results/antibody_epitopes
+sarbecovirus_diversity_dir: results/sarbecovirus_diversity
+logoplots_dir: results/logoplots
+interactive_heatmap: docs/_includes/interactive_heatmap.html
+
+# parameters for running PacBio `ccs` program
+min_ccs_accuracy: 0.999
+min_ccs_passes: 3
+min_ccs_length: 50
+max_ccs_length: 5000
+
+# max error rate in gene / barcode CCSs retained for consensu building
+max_error_rate: 0.0001
+
+# Parameters for processing Illumina barcodes, assuming this structure:
+#  [R2 binds] - [upstream] - [barcode] - [downstream] - [R1 binds]
+#  This orientation is hard-wired in the barcode parser, but here it is opposite
+#  Therefore, supplied the "downstream" sequence as reverse complemented upstream
+# Passed to `dms_variants.illuminabarcodeparser.IlluminaBarcodeParser`:
+illumina_barcode_parser_params:
+  upstream: GCGGCCAATACTATCTCTCTATG
+  downstream: GCAGAAGAAGCCACGTTAA
+  minq: 20
+  upstream_mismatch: 3
+  downstream_mismatch: 3
