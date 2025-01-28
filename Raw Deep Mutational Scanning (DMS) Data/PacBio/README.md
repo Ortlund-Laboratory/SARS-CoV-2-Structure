@@ -40,7 +40,7 @@ Run `jupyter`:
 
 ## Key Output
 
-[results/process_ccs/processed_ccs.csv.gz]XXX<br>
+[results/process_ccs/processed_ccs.csv.gz](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio/results/process_ccs/processed_ccs.csv.gz)<br>
 List of parsed barcodes and their associated mutations.
 
 
