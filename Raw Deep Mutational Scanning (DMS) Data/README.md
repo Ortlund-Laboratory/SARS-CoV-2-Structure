@@ -81,7 +81,7 @@ For the Twist library used, click [here](https://github.com/Ortlund-Laboratory/S
 
 ## PacBio Library Sequencing
 
-PacBio library sequencing is required to connect variants to their respective barcodes. This process is described in [PacBio_Library_Sequencing](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing) within the [DMS_IgG1Fc](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main) repository.
+PacBio library sequencing is required to connect variants to their respective barcodes. This process is described in [PacBio](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio).
 
 ## Workflow
 
