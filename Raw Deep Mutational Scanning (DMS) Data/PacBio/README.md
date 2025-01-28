@@ -9,7 +9,7 @@ Change line above!!! At the moment, it points to wrong SRA.
 
 ## Input Files Required
 
-[config.yaml]XXX<br>
+[config.yaml](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio/config.yaml)<br>
 Configuration script controlling variables used by Jupyter notebook.<br>
 [data/feature_parse_specs.yaml]XXX<br>
 Script for controlling the sequence parsing strategy.<br>
