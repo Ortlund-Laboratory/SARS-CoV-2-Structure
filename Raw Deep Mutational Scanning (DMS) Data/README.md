@@ -77,7 +77,7 @@ This error appears in a function which is not necessary for our analysis. Theref
 ```
 ## Twist Library
 
-For the Twist library used, see our [DMS_IgG1Fc](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main) repository.
+For the Twist library used, click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Twist_Library_QC).
 
 ## PacBio Library Sequencing
 
