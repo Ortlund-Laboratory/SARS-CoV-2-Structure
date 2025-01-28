@@ -40,7 +40,7 @@ Run `jupyter`:
 
 ## Key Output
 
-[results/process_ccs/processed_ccs.csv]XXX<br>
+[results/process_ccs/processed_ccs.csv.gz]XXX<br>
 List of parsed barcodes and their associated mutations.
 
 
