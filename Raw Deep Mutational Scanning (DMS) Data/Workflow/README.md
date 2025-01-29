@@ -16,7 +16,7 @@ Converts barcodes located at the R2 end to the R1 end by taking the reverse comp
 Counts the number of times a barcode (and by extension a variant) appears in each Illumina barcode sequencing sample.<br>
 [scripts/run_nb.py](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scripts/run_nb.py)<br>
 Runs Jupyter notebooks and creates Markdown output.<br>
-[data/feature_parse_specs.yaml]XXX<br>
+[data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
 [data/PacBio_amplicons.gb]XXX<br>
 GeneBank data file describing sequence features.<br>
