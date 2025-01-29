@@ -18,7 +18,7 @@ Counts the number of times a barcode (and by extension a variant) appears in eac
 Runs Jupyter notebooks and creates Markdown output.<br>
 [data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
-[data/PacBio_amplicons.gb]XXX<br>
+[data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
 [data/barcode_runs.csv]XXX<br>
 List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
