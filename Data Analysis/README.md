@@ -22,8 +22,13 @@ The sixth tab **Difference DMS Rosetta Filtered** gives the results from the fif
 
 The seventh tab **Difference DMS Rosetta Filtered Remove Neutral Mutations** gives the results from the sixth tab now further filtered so that mutations which could be considered as having a neutral effect on the stability are removed. Mutations are considered neutral if the score is within 15% of the median for both the Rosetta prediction and the DMS datasets.
 
-The eighth tab **Rosetta, PMPNN consistent with DMS** gives the results from the seventh tab now further filtered so that only mutations where ProteinMPNN gives a same-sign prediction as the DMS score are retained. This allows us to determine how many, and which, variants are incorrectly predicted only by Rosetta, and which are incorrectly predicted by both Rosetta and ProteinMPNN
+The eighth tab **Rosetta, PMPNN consistent with DMS** gives the results from the seventh tab now further filtered so that only mutations where ProteinMPNN gives a same-sign prediction as the DMS score are retained. This allows us to determine how many, and which, variants are incorrectly predicted only by Rosetta, and which are incorrectly predicted by both Rosetta and ProteinMPNN.
 
 The ninth tab **Difference DMS ProteinMPNN** is like the fifth tab except now the comparison is between DMS and ProteinMPNN. 
 
+The tenth tab **Difference DMS ProteinMPNN Filtered** gives the results from the ninth tab filtered so that the ProteinMPNN prediction is the opposite sign from the DMS result.
+
+The eleventh tab **Difference DMS ProteinMPNN Filtered Remove Neutral Mutations** gives the results from the tenth tab now further filtered so that mutations which could be considered as having a neutral effect on the stability are removed. Mutations are considered neutral if the score is within 15% of the median for both the ProteinMPNN prediction and the DMS datasets.
+
+The twelfth tab **PMPNN, Rosetta consistent with DMS** gives the results from the eleventh tab now further filtered so that only mutations where Rosetta gives a same-sign prediction as the DMS score are retained. This allows us to determine how many, and which, variants are incorrectly predicted only by ProteinMPNN, and which are incorrectly predicted by both Rosetta and ProteinMPNN. Results should be similar to the eighth tab, although perhaps not entirely consistent due to different filtering steps.
 
