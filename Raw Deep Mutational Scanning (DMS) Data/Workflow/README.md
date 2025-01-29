@@ -22,7 +22,7 @@ Script for controlling the sequence parsing strategy.<br>
 GeneBank data file describing sequence features.<br>
 [data/barcode_runs.csv](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/data/barcode_runs.csv)<br>
 List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
-[data/processed_ccs.csv]XXX<br>
+[data/processed_ccs.csv.gz]XXX<br>
 Processed PacBio CCSs, generated from our [PacBio_Library_Sequencing]XXX routine. Ensure the library is consistent with those used for the assay.<br>
 [data/wildtype_sequence.fasta](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/data/wildtype_sequence.fasta)<br>
 SARS-CoV-2 nucleocapsid wildtype sequence (Wuhan).<br>
