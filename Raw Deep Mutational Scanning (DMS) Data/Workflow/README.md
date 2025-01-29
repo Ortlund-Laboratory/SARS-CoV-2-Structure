@@ -4,7 +4,7 @@ SARS-CoV-2 nucleocapsid variant stability according to Myc selection was investi
 
 ## Input Files Required
 
-[SnakeFile]XXX<br>
+[SnakeFile](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/Snakefile)<br>
 Gives overall instructions for the `snakemake` workflow.<br>
 [config.yaml]XXX<br>
 Configuration script controlling variables used by Jupyter notebooks.<br>
