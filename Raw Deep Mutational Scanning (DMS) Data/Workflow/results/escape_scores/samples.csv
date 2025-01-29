@@ -1,0 +1,3 @@
+name,library,antibody,concentration,concentration_units,date,pre_sample,post_sample,frac_escape,pre_cells_sorted,post_cells_sorted
+mycneg_2000,N-Lib05,mycneg,2000,ng_per_mL,240412,exp1-none-0-reference,exp3-mycneg-2000-escape,0.15,1000000,5000000
+mycpos_2000,N-Lib05,mycpos,2000,ng_per_mL,240412,exp1-none-0-reference,exp2-mycpos-2000-escape,0.15,1000000,5000000
