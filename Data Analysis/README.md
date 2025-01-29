@@ -16,4 +16,14 @@ The third tab **Rosetta** gives the raw score per variant in the first two colum
 
 The fourth tab **All** combines the data from the first three tabs. Care is taken that any rows where there is missing data (which occasionally occurs when a DMS variant is not detected) are deleted. Average scores according to all three methods are calculated per variant. Per-site scores for DMS, ProteinMPNN, Rosetta and an average of all three are also calculated.
 
-The fifth tab **Difference DMS Rosetta** calculates the difference in predicted Rosetta score and generated DMS score per variant (DMS minus Rosetta). These differences are then sorted from most negative (Rosetta predicts mutation to be stabilizing but DMS finds it to be destabilizing) to most positive (*vice versa*) values. 
+The fifth tab **Difference DMS Rosetta** calculates the difference in predicted Rosetta score and generated DMS score per variant (DMS minus Rosetta). These differences are then sorted from most negative (Rosetta predicts mutation to be stabilizing but DMS finds it to be destabilizing) to most positive (*vice versa*) values. Percentile 0.35, percentile 0.5 (the median) and percentile 0.65 are calculated for both the DMS and Rosetta datasets, and provided.
+
+The sixth tab **Difference DMS Rosetta Filtered** gives the results from the fifth tab filtered so that the Rosetta prediction is the opposite sign from the DMS result.
+
+The seventh tab **Difference DMS Rosetta Filtered Remove Neutral Mutations** gives the results from the sixth tab now further filtered so that mutations which could be considered as having a neutral effect on the stability are removed. Mutations are considered neutral if the score is within 15% of the median for both the Rosetta prediction and the DMS datasets.
+
+The eighth tab **Rosetta, PMPNN consistent with DMS** gives the results from the seventh tab now further filtered so that only mutations where ProteinMPNN gives a same-sign prediction as the DMS score are retained. This allows us to determine how many, and which, variants are incorrectly predicted only by Rosetta, and which are incorrectly predicted by both Rosetta and ProteinMPNN
+
+The ninth tab **Difference DMS ProteinMPNN** is like the fifth tab except now the comparison is between DMS and ProteinMPNN. 
+
+
