@@ -4,7 +4,7 @@ PacBio library sequencing is required to connect variants to their respective ba
 
 Input fastq files are too large for GitHub, and can be found at the NCBI Sequence Read Archive (SRA).
 
-Search NCBI BioProject PRJNA1216977 or click [here](http://www.ncbi.nlm.nih.gov/bioproject/1216977).<br>
+Search NCBI BioProject PRJNA1216977 (BioSample SAMN46474439) or click [here](http://www.ncbi.nlm.nih.gov/bioproject/1216977).<br>
 
 ## Input Files Required
 
