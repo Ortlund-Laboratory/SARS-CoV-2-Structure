@@ -34,7 +34,11 @@ The workflow operates on Illumina barcode sequencing data in fastq.gz format and
 **p22064-s003_220225_03_S150_L002_R2_001.fastq.gz**<br>
 Search NCBI BioProject PRJNA1216977 (BioSample SAMN46474440) or click [here](https://www.ncbi.nlm.nih.gov/bioproject/1216977).
 
+**p22064-s004_220225_04_S151_L002_R2_001.fastq.gz**<br>
+Search NCBI BioProject PRJNA1216977 (BioSample SAMN46474441) or click [here](https://www.ncbi.nlm.nih.gov/bioproject/1216977).
 
+**p22064-s005_220225_05_S152_L002_R2_001.fastq.gz**<br>
+Search NCBI BioProject PRJNA1216977 (BioSample SAMN46474442) or click [here](https://www.ncbi.nlm.nih.gov/bioproject/1216977).
 
 ## Workflow
 
