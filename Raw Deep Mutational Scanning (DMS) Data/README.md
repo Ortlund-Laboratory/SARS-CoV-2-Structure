@@ -85,8 +85,8 @@ PacBio library sequencing is required to connect variants to their respective ba
 
 ## Workflow
 
-Input files and scripts for the calculation and presentation of binding scores are provided in [Workflow]need to update this.
+Input files and scripts for the calculation and presentation of binding scores are provided [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow).
 
 ## Deposited Data
 
-Relevant input/output data are deposited in the [Deposited_Data]need to add subfolder. Large sequencing files which cannot be maintained on GitHub are provided in external databases, and links are provided. Between these and the example workflows, users should be able to recreate our results. Should issues arise, please contact adkeith@emory.edu or eortlun@emory.edu. 
+Relevant input/output data are deposited in [Workflow](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow). Large sequencing files which cannot be maintained on GitHub are provided in external databases, and links are provided. Users should be able to recreate our results. Should issues arise, please contact adkeith@emory.edu or eortlun@emory.edu. 
