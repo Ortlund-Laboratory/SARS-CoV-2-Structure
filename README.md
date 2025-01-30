@@ -15,7 +15,7 @@ Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/mai
 Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data).
 
 ## ProteinMPNN Comparing Site Averages vs WT
-Click
+Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/ProteinMPNN%20Comparing%20Site%20Averages%20vs%20WT).
 
 ## Data Analysis
 Click [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Data%20Analysis).
