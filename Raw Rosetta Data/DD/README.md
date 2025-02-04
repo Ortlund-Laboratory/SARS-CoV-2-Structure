@@ -1,2 +1,2 @@
-See paper for a discussion on how the data was generated from stripped_6wzo_renum_0117.pdb. Our cartesian folder is available upon request from adkeith@emory.edu or eaortun@emory.edu.
+See paper for a discussion on how the data was generated from stripped_6wzo_renum_0117.pdb. Our cartesian folder is available upon request from adkeith@emory.edu or eaortlun@emory.edu.
 
