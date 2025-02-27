@@ -1,0 +1,3 @@
+library,sample,date,experiment,antibody,concentration,concentration_units,group,selection,frac_escape,cells_sorted,R1
+N-Lib05,exp1-none-0-reference,250224,exp1,none,0,ng_per_mL,none,reference,NaN,5000000,/home/adkeith@Eu.Emory.Edu/DMS_Workflow/nucleocapsid/p21269_gfp_myc_analysis/p21269-s002_211116_2_S96_L001_R2_001.fastq.gz
+N-Lib05,exp2-mycpos-2000-escape,250224,exp2,mycpos,2000,ng_per_mL,DK,escape,0.15,1000000,/home/adkeith@Eu.Emory.Edu/DMS_Workflow/nucleocapsid/p21269_gfp_myc_analysis/p21269-s004_211116_4_S98_L001_R2_001.fastq.gz
