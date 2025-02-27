@@ -82,9 +82,13 @@ For the Twist library used, click [here](https://github.com/Ortlund-Laboratory/S
 
 PacBio library sequencing is required to connect variants to their respective barcodes. This process is described in [PacBio](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio).
 
+## Initial GFP<sup>+</sup>Myc<sup>+</sup> Selection
+
+Input files and scripts for the calculation of variant expression upon Myc<sup>+</sup> selection are provided 
+
 ## Workflow
 
-Input files and scripts for the calculation and presentation of binding scores are provided [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow).
+Input files and scripts for the calculation and presentation of scores are provided [here](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow).
 
 ## Deposited Data
 
