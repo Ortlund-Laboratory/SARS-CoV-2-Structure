@@ -26,3 +26,25 @@ List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
 Processed PacBio CCSs, generated from our [PacBio](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/tree/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/PacBio) routine. Ensure the library is consistent with those used for the assay.<br>
 [data/wildtype_sequence.fasta](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Initial_GFP+_Myc+_Selection/data/wildtype_sequence.fasta)<br>
 SARS-CoV-2 nucleocapsid wildtype sequence (Wuhan).<br>
+
+### Sequencing Data
+
+The workflow operates on Illumina barcode sequencing data in fastq.gz format and these files are kept compressed throughout. File location and name should match the listings given in [data/barcode_runs.csv](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Initial_GFP+_Myc+_Selection/data/barcode_runs.csv). These files are too large to be contained in GitHub, and so are found, respectively, at:
+
+**p21269-s002_211116_2_S96_L001_R2_001.fastq.gz**<br>
+Search NCBI BioProject PRJNA1216977 (BioSample SAMN47131533) or click [here](https://www.ncbi.nlm.nih.gov/bioproject/1216977).
+
+**p21269-s004_211116_4_S98_L001_R2_001.fastq.gz**<br>
+Search NCBI BioProject PRJNA1216977 (BioSample SAMN47131889) or click [here](https://www.ncbi.nlm.nih.gov/bioproject/1216977).
+
+## Workflow
+
+Use the `snakemake` environment:
+
+`conda activate snakemake`
+
+Run `snakemake` using specified number of cores:
+
+`snakemake -j 6`
+
+## Key Output
