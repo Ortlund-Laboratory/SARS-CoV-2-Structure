@@ -13,19 +13,17 @@ First, remove all variants where the number of amino acid mutations is 0 (i.e. i
 ```
 awk -F',' '!($10!=1)' variant_counts.csv > tmp.csv && mv tmp.csv variant_counts.csv
 ```
-Next step is to separate into reference, mycpos and mycneg files.
+Next step is to separate into reference and sample files
 ```
 sed -n '/exp1-none-0-reference/p' variant_counts.csv > ref_variant_counts.txt
 sed -n '/exp2-mycpos-2000-escape/p' variant_counts.csv > mycpos_variant_counts.txt
-sed -n '/exp3-mycneg-2000-escape/p' variant_counts.csv > mycneg_variant_counts.txt
 ```
 Then reformat each file so that they just contain tab-separated columns for barcode, mutation and count.
 ```
 awk '{print $4, $8, $5}' FS="," OFS="\t" ref_variant_counts.txt > tmp.txt && mv tmp.txt ref_variant_counts.txt
 awk '{print $4, $8, $5}' FS="," OFS="\t" mycpos_variant_counts.txt > tmp.txt && mv tmp.txt mycpos_variant_counts.txt
-awk '{print $4, $8, $5}' FS="," OFS="\t" mycneg_variant_counts.txt > tmp.txt && mv tmp.txt mycneg_variant_counts.txt
 ```
 Finally, add tab-separated headers (barcode  mutation  count) for each of these files.
 
-Now that we have the input files formatted correctly, we are ready to calculate enhanced/diminished stability scores and to visualize the data. We run these steps in separate mycpos and mycneg subdirectories.
+Now that we have the input files formatted correctly, we are ready to calculate enhanced expression scores and to visualize the data. We run these steps in a separate mycpos subdirectory.
 
