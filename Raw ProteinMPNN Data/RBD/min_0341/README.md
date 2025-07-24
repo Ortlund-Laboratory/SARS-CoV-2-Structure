@@ -1,0 +1,1 @@
+Data from stripped_7vnu_renum_0341.pdb
