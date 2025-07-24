@@ -1,0 +1,19 @@
+Preparing fixed residue doc:
+
+python ../../helper_scripts/parse_multiple_chains.py --input_path input/ --output_path input/stripped_7vnu_renum.jsonl
+python ../../helper_scripts/assign_fixed_chains.py --input_path input/stripped_7vnu_renum.jsonl --output_path input/stripped_7vnu_renum_assigned.jsonl --chain_list "A"
+python ../../helper_scripts/make_bias_AA.py --output_path input/stripped_7vnu_renum_bias_A.jsonl --AA_list "A C D E F G H I K L M N P Q R S T V W Y" --bias_list "1000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+
+This works for bias to A. Will need to change for other amino acids
+
+python ../../helper_scripts/make_fixed_positions_dict.py --specify_non_fixed --position_list "1" --input_path input/stripped_7vnu_renum.jsonl --chain_list "A" --output_path input/stripped_7vnu_renum_fixed_pos_1.jsonl
+
+This works for residue 1. Will need to change --position_list argument for all other residues, and the name of the fixed_pos output file.
+
+Just execute generate_fixed_position_jsonl.sh 
+
+mkdir design_1
+
+python ../../protein_mpnn_run.py --jsonl_path input/stripped_7vnu_renum.jsonl --chain_id_jsonl input/stripped_7vnu_renum_assigned.jsonl --bias_AA_jsonl input/stripped_7vnu_renum_bias.jsonl --fixed_positions_jsonl input/stripped_7vnu_renum_fixed_pos_1.jsonl --out_folder design_1 --num_seq_per_target 190 --sampling_temp "0.1" --seed 0 --batch_size 1 --save_score 1 --save_probs 1
+
+Change fixed_pos input files and the out_folder based on which position is not being fixed
