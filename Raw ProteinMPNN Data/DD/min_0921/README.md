@@ -1,0 +1,1 @@
+Data from stripped_6wzo_renum_0921.pdb
