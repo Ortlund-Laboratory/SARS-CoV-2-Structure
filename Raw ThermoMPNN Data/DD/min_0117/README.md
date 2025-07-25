@@ -1,1 +1,1 @@
-x
+stripped_6wzo_renum_0117.pdb
