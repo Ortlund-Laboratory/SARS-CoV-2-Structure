@@ -1,0 +1,1 @@
+stripped_6wzo_renum_0195.pdb
