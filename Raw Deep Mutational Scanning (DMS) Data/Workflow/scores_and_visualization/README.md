@@ -29,3 +29,6 @@ Finally, add tab-separated headers (barcode  mutation  count) for each of these 
 
 Now that we have the input files formatted correctly, we are ready to calculate enhanced/diminished stability scores and to visualize the data. We run these steps in separate mycpos and mycneg subdirectories.
 
+## Z-normalized MycPos minus MycNeg Data
+
+For Figure 2 of our paper, we display our dataset encompassing both stabilization and destabilization scores. To generate this dataset, we z-normalize the MycPos and MycNeg datasets, subtract MycNeg from MycPos, then z-normalize again. This procedure is summarized in [z_norm_mycpos_minus_mycneg.xlsx](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/z_norm_pos_minus_neg/z_norm_mycpos_minus_mycneg.xlsx). See the [z_norm_pos_minus_neg](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/z_norm_pos_minus_neg) subfolder.
