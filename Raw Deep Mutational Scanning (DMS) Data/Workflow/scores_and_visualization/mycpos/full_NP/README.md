@@ -17,11 +17,11 @@ rstudio Mar2022_mycpos_myBarcodeMapping.R
 
 ## Key Output
 
-[Mycpos_scores.csv](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/Mycpos_scores.csv)<br>
+[MycPos_scores.csv](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/MycPos_scores.csv)<br>
 Log of each mutation and its associated score.<br>
-[Mycpos_per_site_score.csv](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/Mycpos_per_site_score.csv)<br>
+[MycPos_per_site_score.csv](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/MycPos_per_site_score.csv)<br>
 Log of each site and its associated averaged score.<br>
-[Mycpos_Fraction_heatmap01.png](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/Mycpos_Fraction_heatmap01.png)<br>
+[MycPos_Fraction_heatmap01.png](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/MycPos_Fraction_heatmap01.png)<br>
 Heatmap of scores for all single-point variants from the MycPos sample (part 1).<br>
-[Mycpos_Fraction_heatmap02.png](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/Mycpos_Fraction_heatmap02.png)<br>
+[MycPos_Fraction_heatmap02.png](https://github.com/Ortlund-Laboratory/SARS-CoV-2-Structure/blob/main/Raw%20Deep%20Mutational%20Scanning%20(DMS)%20Data/Workflow/scores_and_visualization/mycpos/full_NP/output/MycPos_Fraction_heatmap02.png)<br>
 Heatmap of scores for all single-point variants from the MycPos sample (part 2).<br>
